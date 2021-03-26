@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cursive;
+    
+    
+}
+.btn-outline-secondary{
+    background-color: rgb(192, 80, 114);
+    color: #fff;
+    border: rgb(192, 80, 114);
+}
+.btn-outline-secondary:hover{
+    background-color: rgb(226, 168, 190);
+    color: rgb(168, 43, 81);
+    border: ;
+}
+#banner-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgb(236, 188, 196)), url(https://wallpaperaccess.com/full/695763.jpg);
+    background-size: cover;
+    
+    height: 80vh;
+    background-position: center;
+}
+.image-taxt{
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 50px;
+    color: rgb(158, 41, 80);
+    font-size: 4rem;
+    
+}
+.fondation{
+    height: 200px;
+    width: 100px;
+    border-radius: 10px;
+}
+.row{
+    margin: 10px;
+}
+.card{
+    height: 400px;
+    width: 280px;
+    text-align: center;
+}
+.card-img-top{
+    height: 300px;
+    width: 200px;
+}
+.price{
+    text-align: center;
+}
+
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+.btnn{
+    border-radius: 50%;
+    border: rgb(192, 80, 114);
+    background-color: rgb(192, 80, 114);
+    transition: .5s;
+    
+}
+.btnn:hover{
+    width: 15vh;
+    height: 6vh;
+    border-radius: 30px;
+    text-align: left;
+}
+.btnnn{
+    border-radius: 50%;
+    border: rgb(192, 80, 114);
+    background-color: rgb(192, 80, 114);
+    transition: .5s;
+}
+.btnnn:hover{
+    width: 15vh;
+    height: 6vh;
+    border-radius: 30px;
+    text-align: right;
+
+}
+.fas {
+    text-align: left;
+    padding: 10px;
+}
+.card-body{
+    text-align: unset;
+}
+.checked {
+    color: orange;
+  }
+.offer-badge{
+    text-align: right;
+}
+.icons {
+    padding: 20vh;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.footer{
+    display: grid;
+    background-color: rgb(224, 156, 183);
+    margin-top: 40px;
+    grid-template-columns: 70% 30% ;
+}
+.footer-text{
+    width: 500px;
+    text-align: left;
+    padding: 10px;
+}
